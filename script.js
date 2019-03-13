@@ -13,4 +13,11 @@ var fName='firstName',lName= 'lastName',age=28;
 var a;
 console.log(a);
 
-console.log(b);
+
+
+var num=10+5;
+console.log(num);
+var num=10+'5';
+console.log(num);
+var num=10*'5';
+console.log(num);
