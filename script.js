@@ -68,3 +68,26 @@ var sum = function(a,b){
 }
 
 sum(10,15);
+
+// example of array literal
+var arr=['Nishh','monty','pallavi','10',true,[2,3,7]];
+console.log(arr);
+console.log(arr[1]);
+console.log(arr[5]);
+console.log(arr[5][1]);
+
+var arr2=['Nishh',
+         'monty',
+         'pallavi',
+         '10',
+         true,
+         [2,3,7]
+        ,
+        function(name){
+            return ' Hello ' + name;
+        }];
+console.log(arr2[6](arr2[2]));
+
+// array using constructor
+var arr3 = new Array('Nishh','monty','pallavi','10',true,[2,3,7]);
+console.log(arr3);
