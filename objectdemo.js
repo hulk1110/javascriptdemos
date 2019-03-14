@@ -17,3 +17,48 @@ person.gf= new Object();
 person.gf.name="Pallavi";
 person.gf.age="27";
 console.log(person);
+
+//example 3 we should go for literal notation while creating object
+
+var person ={
+    firstName:'Nishant',
+    lastName:'Srivastava',
+    age:'28',
+    gf:{name:'pallavi',age:27},
+    myFunc:function(){
+                 console.log('Hello world from object');
+             }
+             }; // js engine will create object 
+console.log(person);
+console.log(person.gf.name);
+person.myFunc();
+
+
+// Example 3:
+var person ={
+    firstName:'Nishant',
+    lastName:'Srivastava',
+    age:'28',
+    gf:{name:'pallavi',age:27},
+    myFunc:function(gfName,bfName,gfAge){
+                 console.log(gfName + ' is gf of '+ bfName + ' and she is ' + gfAge + ' years old ');
+             }
+             }; // js engine will create object 
+console.log(person);
+console.log(person.gf.name);
+person.myFunc(person.gf.name,person.firstName,person.gf.age);
+
+
+// Example 4:
+var person ={
+    firstName:'Nishant',
+    lastName:'Srivastava',
+    age:'28',
+    gf:{name:'pallavi',age:27},
+    myFunc:function(par){
+                 console.log(par.gfName + ' is gf of '+ par.bfName + ' and she is ' + par.gfAge + ' years old ');
+             }
+             }; // js engine will create object 
+console.log(person);
+console.log(person.gf.name);
+person.myFunc({gfName:'Pallu',bfName:'Nishh',gfAge:27});
