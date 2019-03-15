@@ -166,5 +166,62 @@ Date:
 ---------------
 
 
+Behind the scenes in javascript
+-------------------------------
+
+all browser has buidin js engine to translate js
+.
+
+chrome has v8 enigne
+mozilla has spiderMonkey
+safari has javascriptCore
+microsoft IE has chakraCore
+
+
+steps to convert js to browser are:
+
+see video after 2:48:
+
+https://www.youtube.com/watch?v=wbJWUWJWlaY&list=PLG5VA3hfHsnf5bDbIWzOSCSfbTBP92no9&index=34&t=3807s
+
+
+1.syntax parser --> reads code character by character and checks if its grammar is valid
+
+it checks code before it is actually executed.
+
+2.lexical scope:-->is environment where piece of entire code physically sits.
+js engine behaves in different ways according to where this piece of code is placed.
+ 
+lexical scope are declared inside the function.
+can't be accessed outside
+for example variable defined inside function can't be accessed outside.
+
+3.execution context is line container which manages the code
+ that is currently running.
+
+ in most cases it is created by functions.
+ 
+ 
+when a web page is hit to browser even without link to javascript, js engine
+
+prepares global execution context.
+
+global execution context is base execution context,
+that manages the code which is not inside a function.
+
+It is created immediately when the page is loaded.
+
+
+global execution context creates global object and also 'this'. 
+where this point to global object .
+
+example of global object is window.
+
+
+note : it can be verified by typing 'this' in console.
+
+
+
+
 
 
