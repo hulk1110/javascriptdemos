@@ -221,6 +221,11 @@ example of global object is window.
 note : it can be verified by typing 'this' in console.
 
 
+Execution stack and execution context:
+
+see video from 3:00:00 to 03:07:00 
+https://www.youtube.com/watch?v=wbJWUWJWlaY&list=PLG5VA3hfHsnf5bDbIWzOSCSfbTBP92no9&index=34&t=3807s
+
 
 
 
