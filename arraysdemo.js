@@ -30,3 +30,7 @@ colors.forEach(function(color,index,arr){
     console.log(color,index,arr);
 });
 
+
+
+// colors.classList.add();
+//colors.classList.toggle();
