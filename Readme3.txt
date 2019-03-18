@@ -18,3 +18,19 @@ el = document.querySelector('ul li')
 to select 2nd li element we can use as below:
 
 el = document.querySelector('ul li:nth-child(2)')
+
+
+Adding events to DOM:
+-----------------------------
+
+
+
+var h2= document.querySelector('header h2);
+
+h2.addEventListener('click',function()){
+a(5,10);
+}
+
+function a(x,y){
+console.log(x *y)
+}
