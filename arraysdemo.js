@@ -25,3 +25,8 @@ if(colors.indexOf('blue')===-1){
 console.log(colors);
 }
 
+
+colors.forEach(function(color,index,arr){
+    console.log(color,index,arr);
+});
+

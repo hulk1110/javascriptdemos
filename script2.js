@@ -105,5 +105,5 @@ var per1 = {
         }
         greet();
     }
-}
+} 
 per1.getFullName();
