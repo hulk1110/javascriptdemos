@@ -98,3 +98,33 @@ Read again: 5:20 onward
 
 https://www.youtube.com/watch?v=wbJWUWJWlaY&t=15518s
 
+
+
+Adding a new Element:
+
+
+var newEl = docuement.createElement('button');
+console.log(newEl);
+
+var text = document.createTextNode('click');
+console.log(text);
+
+newEl.appendChild(text);
+
+newEl .setAttribute('style','display:block;
+margin:10px auto; padding: 5px,10px, background:coral;
+color:#fff;);
+console.log(newEl)
+
+var form =document.getElementById('add');
+form.appendChild(newEl)
+
+or we can add also as
+
+form.insertBefore(newEl,form.children[0]);
+
+
+removing child element
+---------------
+
+newEl.parentElement.removeChild(newEl);
