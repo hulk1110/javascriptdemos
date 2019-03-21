@@ -57,3 +57,34 @@ element in DOM.
 Js engine executes all the code after that it executes events.
 
 
+getAtrribute()
+
+---------------
+
+var div =document.querySelector('div.wrapper)
+
+div.getAtrribute('class');
+// "wrapper"
+
+
+setAttribute()
+------------------
+
+div.setAttribute('style','background:coral');
+
+div.removeAttribute('style');
+
+
+example:
+
+converting an input element into submit element:
+
+var btn =document.getElementById('add-btn');
+var input =docuemnt.getElementById('add-input);
+
+btn.addEventListener(
+'click',function(e){
+e.preventDefault();
+input.setAttribute('type','submit');
+input.setAttribute('value',input.value);
+});
