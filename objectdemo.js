@@ -62,3 +62,29 @@ var person ={
 console.log(person);
 console.log(person.gf.name);
 person.myFunc({gfName:'Pallu',bfName:'Nishh',gfAge:27});
+
+
+function createPerson(){
+    var newPerson ={};
+    newPerson.firstname='Bob';
+    newPerson.lastName= 'Brown';
+    return newPerson;
+}
+
+var person3 = createPerson();
+
+console.log(person3)
+
+
+
+
+function createPerson(firstName,lastName){
+    var newPerson ={};
+    newPerson.firstname=firstName;
+    newPerson.lastName= lastName;
+    return newPerson;
+}
+
+var person4= createPerson('Nishant','Srivatava');
+
+console.log(person4)

@@ -34,3 +34,10 @@ colors.forEach(function(color,index,arr){
 
 // colors.classList.add();
 //colors.classList.toggle();
+
+var arr = [1,2,3];
+
+arr[3] =4;
+
+arr.prop='Hello';
+console.log(arr);
