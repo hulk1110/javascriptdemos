@@ -88,3 +88,13 @@ e.preventDefault();
 input.setAttribute('type','submit');
 input.setAttribute('value',input.value);
 });
+
+
+DOM Navigation:-->
+
+-------------------------------------------
+
+Read again: 5:20 onward 
+
+https://www.youtube.com/watch?v=wbJWUWJWlaY&t=15518s
+
