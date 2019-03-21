@@ -34,3 +34,26 @@ a(5,10);
 function a(x,y){
 console.log(x *y)
 }
+
+
+
+
+Event Object
+----------------------------
+var h2= document.querySelector('header h2);
+h2.addEventListener('click',a);
+
+function a(){
+console.log(e.target);
+}
+
+Event bubbling- > seq of event getting fired from inner to outer element
+ in DOM.
+ 
+Event capturing -> seq of event getting fired from outer to inner
+element in DOM.
+
+
+Js engine executes all the code after that it executes events.
+
+
